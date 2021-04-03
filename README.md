@@ -226,3 +226,19 @@ Facebook: <https://www.facebook.com/CreativeTim?ref=creativetim>
 Dribbble: <https://dribbble.com/creativetim?ref=creativetim>
 
 Instagram: <https://www.instagram.com/CreativeTimOfficial?ref=creativetim>
+
+### Time Estimate
+Number and name of feature: Feature 1 - Deploy
+Estimate of time needed to complete: 10 minutes
+Start time: 1:10
+Finish time: 1:20
+Actual time needed to complete: 10 minutes
+
+Number and name of feature: Feature 2 - Modify the Contents
+Estimate of time needed to complete: 3 hours
+Start time: 
+Finish time: 
+Actual time needed to complete: 
+
+### Deployed Page
+https://compassionate-archimedes-952840.netlify.app/ 
