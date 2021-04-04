@@ -39,30 +39,6 @@ class CardsFooter extends React.Component {
     return (
       <>
         <footer className="footer has-cards">
-          <Container className="container-lg">
-            <Row>
-              <Col className="mb-5 mb-md-0" md="6">
-                <Card className="card-lift--hover shadow border-0">
-                  <Link to="/portfolio-page">
-                    <CardImg
-                      alt="..."
-                      src={landing}
-                    />
-                  </Link>
-                </Card>
-              </Col>
-              <Col className="mb-5 mb-lg-0" md="6">
-                <Card className="card-lift--hover shadow border-0">
-                  <Link to="/profile-page">
-                    <CardImg
-                      alt="..."
-                      src={profile}
-                    />
-                  </Link>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
           <Container>
             <Row className="row-grid align-items-center my-md">
               <Col lg="6">
@@ -110,7 +86,7 @@ class CardsFooter extends React.Component {
                 <div className="copyright">
                   © {new Date().getFullYear()}{" "}
                   <a
-                    href="https://www.creative-tim.com?ref=adsr-footer"
+                    href=""
                     target="_blank"
                   >
                     Shelby Harner
@@ -119,7 +95,7 @@ class CardsFooter extends React.Component {
                 </div>
               </Col>
               <Col md="6">
-                <Nav className="nav-footer justify-content-end">
+                {/* <Nav className="nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
                       href="https://www.creative-tim.com?ref=adsr-footer"
@@ -152,7 +128,7 @@ class CardsFooter extends React.Component {
                       MIT License
                     </NavLink>
                   </NavItem>
-                </Nav>
+                </Nav> */}
               </Col>
             </Row>
           </Container>
