@@ -237,8 +237,8 @@ Actual time needed to complete: 20 minutes
 Number and name of feature: Feature 2 - Modify the Contents
 Estimate of time needed to complete: 3 hours
 Start time: 2:00
-Finish time: 
-Actual time needed to complete: 
+Finish time: 7:00
+Actual time needed to complete: 5 hours
 
 ### Deployed Page
 https://compassionate-archimedes-952840.netlify.app/ 
