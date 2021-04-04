@@ -21,10 +21,10 @@ import classnames from "classnames";
 import promo1 from "assets/img/theme/promo-1.png";
 import cardImg from "assets/img/theme/img-1-1200x1000.jpg";
 import ill2 from "assets/img/ill/ill-2.svg";
-import team1 from "assets/img/theme/team-1-800x800.jpg";
-import team2 from "assets/img/theme/team-2-800x800.jpg";
-import team3 from "assets/img/theme/team-3-800x800.jpg";
-import team4 from "assets/img/theme/team-4-800x800.jpg";
+import team1 from "assets/img/theme/Lorenzo.png";
+import team2 from "assets/img/theme/audrey.jpg";
+import team3 from "assets/img/theme/mohsin_headshot.jpeg";
+import team4 from "assets/img/theme/ShelbyClass.JPG";
 
 // reactstrap components
 import {
@@ -81,38 +81,12 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        Shelby Harner{" "}
+                        <span>What I'm excited about in tech:</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        I'm excited to be part of an industry that is innovative and ground breaking. I'm eager to be a professional immersed into a culture of creativity and growth. 
                       </p>
-                      <div className="btn-wrapper">
-                        <Button
-                          className="btn-icon mb-3 mb-sm-0"
-                          color="info"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="fa fa-code" />
-                          </span>
-                          <span className="btn-inner--text">Components</span>
-                        </Button>
-                        <Button
-                          className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
-                          color="default"
-                          href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="ni ni-cloud-download-95" />
-                          </span>
-                          <span className="btn-inner--text">
-                            Download React
-                          </span>
-                        </Button>
-                      </div>
                     </Col>
                   </Row>
                 </div>
@@ -144,35 +118,27 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                            <i className="ni ni-check-bold" />
+                          <div className="icon icon-shape icon-shape-danger rounded-circle mb-4">
+                            <i className="fa fa-star" />
                           </div>
-                          <h6 className="text-primary text-uppercase">
-                            Download Argon
+                          <h6 className="text-danger text-uppercase">
+                            201 Project - Salmon Cookies
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Salmon Cookies
                           </p>
                           <div>
-                            <Badge color="primary" pill className="mr-1">
-                              design
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              system
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              creative
+                            <Badge color="danger" pill className="mr-1">
+                              tbd
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="primary"
-                            href="#pablo"
+                            color="danger"
+                            href="https://github.com/shelbyharner/cookie-stand"
                             onClick={e => e.preventDefault()}
                           >
-                            Learn more
+                            Link to repo
                           </Button>
                         </CardBody>
                       </Card>
@@ -180,62 +146,82 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                            <i className="ni ni-istanbul" />
+                          <div className="icon icon-shape icon-shape-danger rounded-circle mb-4">
+                            <i className="fa fa-star" />
                           </div>
-                          <h6 className="text-success text-uppercase">
-                            Build Something
+                          <h6 className="text-danger text-uppercase">
+                            201 Project - Bus Mall
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Bus Mall
                           </p>
                           <div>
-                            <Badge color="success" pill className="mr-1">
-                              business
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              vision
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              success
+                            <Badge color="danger" pill className="mr-1">
+                              tbd
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="success"
-                            href="#pablo"
+                            color="danger"
+                            href="https://github.com/shelbyharner/bus-mall"
                             onClick={e => e.preventDefault()}
                           >
-                            Learn more
+                            Link to repo
                           </Button>
                         </CardBody>
                       </Card>
                     </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-danger rounded-circle mb-4">
+                            <i className="fa fa-star" />
+                          </div>
+                          <h6 className="text-danger text-uppercase">
+                            201 Project - Code Fellows Jeopardy
+                          </h6>
+                          <p className="description mt-3">
+                            Code Fellows Jeopardy is a fun, interactive Jeopardy style game for 201 students to study.
+                          </p>
+                          <div>
+                            <Badge color="danger" pill className="mr-1">
+                              tbd
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="danger"
+                            href="https://github.com/Team-Meow/CodeFellows-Jeopardy"
+                            onClick={e => e.preventDefault()}
+                          >
+                            Link to repo
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                  </Row>
+                </Col>
+              </Row>
+              <br>
+              </br>
+              <Row className="justify-content-center">
+                <Col lg="12">
+                  <Row className="row-grid">
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                            <i className="ni ni-planet" />
+                            <i className="fa fa-star" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            301 Project
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            DETAIL
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
-                              marketing
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              product
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              launch
+                              tbd
                             </Badge>
                           </div>
                           <Button
@@ -244,7 +230,155 @@ class Landing extends React.Component {
                             href="#pablo"
                             onClick={e => e.preventDefault()}
                           >
-                            Learn more
+                            Link to repo
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                            <i className="fa fa-star" />
+                          </div>
+                          <h6 className="text-warning text-uppercase">
+                            301 Project
+                          </h6>
+                          <p className="description mt-3">
+                            DETAIL
+                          </p>
+                          <div>
+                            <Badge color="warning" pill className="mr-1">
+                              tbd
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="warning"
+                            href="#pablo"
+                            onClick={e => e.preventDefault()}
+                          >
+                            Link to repo
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                            <i className="fa fa-star" />
+                          </div>
+                          <h6 className="text-warning text-uppercase">
+                            301 Project
+                          </h6>
+                          <p className="description mt-3">
+                            DETAIL
+                          </p>
+                          <div>
+                            <Badge color="warning" pill className="mr-1">
+                              tbd
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="warning"
+                            href="#pablo"
+                            onClick={e => e.preventDefault()}
+                          >
+                            Link to repo
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                  </Row>
+                </Col>
+              </Row>
+              <br>
+              </br>
+              <Row className="justify-content-center">
+                <Col lg="12">
+                  <Row className="row-grid">
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                            <i className="fa fa-star" />
+                          </div>
+                          <h6 className="text-success text-uppercase">
+                            401 Project
+                          </h6>
+                          <p className="description mt-3">
+                            DETAIL
+                          </p>
+                          <div>
+                            <Badge color="success" pill className="mr-1">
+                              tbd
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="success"
+                            href="#pablo"
+                            onClick={e => e.preventDefault()}
+                          >
+                            Link to repo
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                            <i className="fa fa-star" />
+                          </div>
+                          <h6 className="text-success text-uppercase">
+                            401 Project
+                          </h6>
+                          <p className="description mt-3">
+                            DETAIL
+                          </p>
+                          <div>
+                            <Badge color="success" pill className="mr-1">
+                              tbd
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="success"
+                            href="#pablo"
+                            onClick={e => e.preventDefault()}
+                          >
+                            Link to repo
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                            <i className="fa fa-star" />
+                          </div>
+                          <h6 className="text-success text-uppercase">
+                            401 Project
+                          </h6>
+                          <p className="description mt-3">
+                            DETAIL
+                          </p>
+                          <div>
+                            <Badge color="success" pill className="mr-1">
+                              tbd
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="success"
+                            href="#pablo"
+                            onClick={e => e.preventDefault()}
+                          >
+                            Link to repo
                           </Button>
                         </CardBody>
                       </Card>
@@ -254,154 +388,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <section className="section section-lg">
-            <Container>
-              <Row className="row-grid align-items-center">
-                <Col className="order-md-2" md="6">
-                  <img
-                    alt="..."
-                    className="img-fluid floating"
-                    src={promo1}
-                  />
-                </Col>
-                <Col className="order-md-1" md="6">
-                  <div className="pr-md-5">
-                    <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
-                      <i className="ni ni-settings-gear-65" />
-                    </div>
-                    <h3>Awesome features</h3>
-                    <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
-                    </p>
-                    <ul className="list-unstyled mt-5">
-                      <li className="py-2">
-                        <div className="d-flex align-items-center">
-                          <div>
-                            <Badge
-                              className="badge-circle mr-3"
-                              color="success"
-                            >
-                              <i className="ni ni-settings-gear-65" />
-                            </Badge>
-                          </div>
-                          <div>
-                            <h6 className="mb-0">
-                              Carefully crafted components
-                            </h6>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-2">
-                        <div className="d-flex align-items-center">
-                          <div>
-                            <Badge
-                              className="badge-circle mr-3"
-                              color="success"
-                            >
-                              <i className="ni ni-html5" />
-                            </Badge>
-                          </div>
-                          <div>
-                            <h6 className="mb-0">Amazing page examples</h6>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-2">
-                        <div className="d-flex align-items-center">
-                          <div>
-                            <Badge
-                              className="badge-circle mr-3"
-                              color="success"
-                            >
-                              <i className="ni ni-satisfied" />
-                            </Badge>
-                          </div>
-                          <div>
-                            <h6 className="mb-0">
-                              Super friendly support team
-                            </h6>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </Col>
-              </Row>
-            </Container>
-          </section>
-          <section className="section bg-secondary">
-            <Container>
-              <Row className="row-grid align-items-center">
-                <Col md="6">
-                  <Card className="bg-default shadow border-0">
-                    <CardImg
-                      alt="..."
-                      src={cardImg}
-                      top
-                    />
-                    <blockquote className="card-blockquote">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="svg-bg"
-                        preserveAspectRatio="none"
-                        viewBox="0 0 583 95"
-                      >
-                        <polygon
-                          className="fill-default"
-                          points="0,52 583,95 0,95"
-                        />
-                        <polygon
-                          className="fill-default"
-                          opacity=".2"
-                          points="0,42 583,95 683,0 0,95"
-                        />
-                      </svg>
-                      <h4 className="display-3 font-weight-bold text-white">
-                        Design System
-                      </h4>
-                      <p className="lead text-italic text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever happens.
-                      </p>
-                    </blockquote>
-                  </Card>
-                </Col>
-                <Col md="6">
-                  <div className="pl-md-5">
-                    <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
-                      <i className="ni ni-settings" />
-                    </div>
-                    <h3>Our customers</h3>
-                    <p className="lead">
-                      Don't let your uses guess by attaching tooltips and
-                      popoves to any element. Just make sure you enable them
-                      first via JavaScript.
-                    </p>
-                    <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
-                    </p>
-                    <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
-                    </p>
-                    <a
-                      className="font-weight-bold text-warning mt-5"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      A beautiful UI Kit for impactful websites
-                    </a>
-                  </div>
-                </Col>
-              </Row>
-            </Container>
-          </section>
+          
           <section className="section pb-0 bg-gradient-warning">
             <Container>
               <Row className="row-grid align-items-center">
@@ -418,15 +405,13 @@ class Landing extends React.Component {
                   <div className="d-flex px-3">
                     <div>
                       <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                        <i className="ni ni-building text-primary" />
+                        <i className="fa fa-check text-primary" />
                       </div>
                     </div>
                     <div className="pl-4">
-                      <h4 className="display-3 text-white">Modern Interface</h4>
+                      <h4 className="display-3 text-white">Projects to Showcase</h4>
                       <p className="text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever.
+                        The below project is one that I am currently very proud of. Please see below for further details about my stellar team and the content we created.
                       </p>
                     </div>
                   </div>
@@ -434,54 +419,17 @@ class Landing extends React.Component {
                     <CardBody>
                       <div className="d-flex px-3">
                         <div>
-                          <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
+                          <div className="icon icon-shape bg-gradient-primary rounded-circle text-white">
                             <i className="ni ni-satisfied" />
                           </div>
                         </div>
                         <div className="pl-4">
-                          <h5 className="title text-success">
+                          <h5 className="title text-primary">
                             Awesome Support
                           </h5>
                           <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
+                            Our team grew very close and worked seamlessly as a unit to tick away at all of our goals for this project.
                           </p>
-                          <a
-                            className="text-success"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </a>
-                        </div>
-                      </div>
-                    </CardBody>
-                  </Card>
-                  <Card className="shadow shadow-lg--hover mt-5">
-                    <CardBody>
-                      <div className="d-flex px-3">
-                        <div>
-                          <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                            <i className="ni ni-active-40" />
-                          </div>
-                        </div>
-                        <div className="pl-4">
-                          <h5 className="title text-warning">
-                            Modular Components
-                          </h5>
-                          <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
-                          </p>
-                          <a
-                            className="text-warning"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </a>
                         </div>
                       </div>
                     </CardBody>
@@ -510,11 +458,9 @@ class Landing extends React.Component {
             <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
-                  <h2 className="display-3">The amazing Team</h2>
+                  <h2 className="display-3">Our Amazing Team</h2>
                   <p className="lead text-muted">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record maximum.
+                    Meet us:
                   </p>
                 </Col>
               </Row>
@@ -529,33 +475,24 @@ class Landing extends React.Component {
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
-                        <span className="d-block mb-1">Ryan Tompson</span>
-                        <small className="h6 text-muted">Web Developer</small>
+                        <span className="d-block mb-1">Lorenzo</span>
                       </h5>
                       <div className="mt-3">
                         <Button
                           className="btn-icon-only rounded-circle"
-                          color="warning"
+                          color="info"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
                         >
-                          <i className="fa fa-twitter" />
+                          <i className="fa fa-github" />
                         </Button>
                         <Button
                           className="btn-icon-only rounded-circle ml-1"
-                          color="warning"
+                          color="info"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
                         >
-                          <i className="fa fa-facebook" />
-                        </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="warning"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-dribbble" />
+                          <i className="fa fa-linkedin" />
                         </Button>
                       </div>
                     </div>
@@ -571,35 +508,24 @@ class Landing extends React.Component {
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
-                        <span className="d-block mb-1">Romina Hadid</span>
-                        <small className="h6 text-muted">
-                          Marketing Strategist
-                        </small>
+                        <span className="d-block mb-1">Audrey</span>
                       </h5>
                       <div className="mt-3">
                         <Button
                           className="btn-icon-only rounded-circle"
-                          color="primary"
+                          color="info"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
                         >
-                          <i className="fa fa-twitter" />
+                          <i className="fa fa-github" />
                         </Button>
                         <Button
                           className="btn-icon-only rounded-circle ml-1"
-                          color="primary"
+                          color="info"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
                         >
-                          <i className="fa fa-facebook" />
-                        </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="primary"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-dribbble" />
+                          <i className="fa fa-linkedin" />
                         </Button>
                       </div>
                     </div>
@@ -615,8 +541,7 @@ class Landing extends React.Component {
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
-                        <span className="d-block mb-1">Alexander Smith</span>
-                        <small className="h6 text-muted">UI/UX Designer</small>
+                        <span className="d-block mb-1">Mohsin</span>
                       </h5>
                       <div className="mt-3">
                         <Button
@@ -625,7 +550,7 @@ class Landing extends React.Component {
                           href="#pablo"
                           onClick={e => e.preventDefault()}
                         >
-                          <i className="fa fa-twitter" />
+                          <i className="fa fa-github" />
                         </Button>
                         <Button
                           className="btn-icon-only rounded-circle ml-1"
@@ -633,15 +558,7 @@ class Landing extends React.Component {
                           href="#pablo"
                           onClick={e => e.preventDefault()}
                         >
-                          <i className="fa fa-facebook" />
-                        </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-dribbble" />
+                          <i className="fa fa-linkedin" />
                         </Button>
                       </div>
                     </div>
@@ -657,33 +574,24 @@ class Landing extends React.Component {
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
-                        <span className="d-block mb-1">John Doe</span>
-                        <small className="h6 text-muted">Founder and CEO</small>
+                        <span className="d-block mb-1">Shelby</span>
                       </h5>
                       <div className="mt-3">
                         <Button
                           className="btn-icon-only rounded-circle"
-                          color="success"
+                          color="info"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
                         >
-                          <i className="fa fa-twitter" />
+                          <i className="fa fa-github" />
                         </Button>
                         <Button
                           className="btn-icon-only rounded-circle ml-1"
-                          color="success"
+                          color="info"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
                         >
-                          <i className="fa fa-facebook" />
-                        </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="success"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-dribbble" />
+                          <i className="fa fa-linkedin" />
                         </Button>
                       </div>
                     </div>
@@ -692,79 +600,42 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <section className="section section-lg pt-0">
-            <Container>
-              <Card className="bg-gradient-warning shadow-lg border-0">
-                <div className="p-5">
-                  <Row className="align-items-center">
-                    <Col lg="8">
-                      <h3 className="text-white">
-                        We made website building easier for you.
-                      </h3>
-                      <p className="lead text-white mt-3">
-                        I will be the leader of a company that ends up being
-                        worth billions of dollars, because I got the answers. I
-                        understand culture.
-                      </p>
-                    </Col>
-                    <Col className="ml-lg-auto" lg="3">
-                      <Button
-                        block
-                        className="btn-white"
-                        color="default"
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        size="lg"
-                      >
-                        Download React
-                      </Button>
-                    </Col>
-                  </Row>
-                </div>
-              </Card>
-            </Container>
-          </section>
           <section className="section section-lg bg-gradient-default">
             <Container className="pt-lg pb-300">
               <Row className="text-center justify-content-center">
                 <Col lg="10">
-                  <h2 className="display-3 text-white">Build something</h2>
+                  <h2 className="display-3 text-white">All About Me</h2>
                   <p className="lead text-white">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record low maximum sea ice extent tihs year down
-                    to low ice.
+                  Hello! I am a Washingtonian native currently residing in Seattle. I am a seasoned Executive Assistant and have been in my current role at Amazon for 6 years. Recently I have been getting deeper into the tech aspects of the teams I support, which brought me to Code Fellows to dive into educating myself in order to gain better understanding of the developers that I work with and to also to position myself for a future role change. 
                   </p>
                 </Col>
               </Row>
               <Row className="row-grid mt-5">
                 <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-settings text-primary" />
+                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-danger">
+                    <i className="fa fa-magic text-danger" />
                   </div>
-                  <h5 className="text-white mt-3">Building tools</h5>
+                  <h5 className="text-white mt-3">Characteristic 1</h5>
                   <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    TBD
                   </p>
                 </Col>
                 <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-ruler-pencil text-primary" />
+                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-danger">
+                    <i className="fa fa-bolt text-danger" />
                   </div>
-                  <h5 className="text-white mt-3">Grow your market</h5>
+                  <h5 className="text-white mt-3">Characteristic 2</h5>
                   <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    TBD
                   </p>
                 </Col>
                 <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-atom text-primary" />
+                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-danger">
+                    <i className="fa fa-bug text-danger" />
                   </div>
-                  <h5 className="text-white mt-3">Launch time</h5>
+                  <h5 className="text-white mt-3">Characteristic 3</h5>
                   <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    TBD
                   </p>
                 </Col>
               </Row>
@@ -785,81 +656,6 @@ class Landing extends React.Component {
                 />
               </svg>
             </div>
-          </section>
-          <section className="section section-lg pt-lg-0 section-contact-us">
-            <Container>
-              <Row className="justify-content-center mt--300">
-                <Col lg="8">
-                  <Card className="bg-gradient-secondary shadow">
-                    <CardBody className="p-lg-5">
-                      <h4 className="mb-1">Want to work with us?</h4>
-                      <p className="mt-0">
-                        Your project is very important to us.
-                      </p>
-                      <FormGroup
-                        className={classnames("mt-5", {
-                          focused: this.state.nameFocused
-                        })}
-                      >
-                        <InputGroup className="input-group-alternative">
-                          <InputGroupAddon addonType="prepend">
-                            <InputGroupText>
-                              <i className="ni ni-user-run" />
-                            </InputGroupText>
-                          </InputGroupAddon>
-                          <Input
-                            placeholder="Your name"
-                            type="text"
-                            onFocus={() => this.setState({ nameFocused: true })}
-                            onBlur={() => this.setState({ nameFocused: false })}
-                          />
-                        </InputGroup>
-                      </FormGroup>
-                      <FormGroup
-                        className={classnames({
-                          focused: this.state.emailFocused
-                        })}
-                      >
-                        <InputGroup className="input-group-alternative">
-                          <InputGroupAddon addonType="prepend">
-                            <InputGroupText>
-                              <i className="ni ni-email-83" />
-                            </InputGroupText>
-                          </InputGroupAddon>
-                          <Input
-                            placeholder="Email address"
-                            type="email"
-                            onFocus={() => this.setState({ emailFocused: true })}
-                            onBlur={() => this.setState({ emailFocused: false })}
-                          />
-                        </InputGroup>
-                      </FormGroup>
-                      <FormGroup className="mb-4">
-                        <Input
-                          className="form-control-alternative"
-                          cols="80"
-                          name="name"
-                          placeholder="Type a message..."
-                          rows="4"
-                          type="textarea"
-                        />
-                      </FormGroup>
-                      <div>
-                        <Button
-                          block
-                          className="btn-round"
-                          color="default"
-                          size="lg"
-                          type="button"
-                        >
-                          Send Message
-                        </Button>
-                      </div>
-                    </CardBody>
-                  </Card>
-                </Col>
-              </Row>
-            </Container>
           </section>
           <Download />
         </main>

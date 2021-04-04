@@ -229,14 +229,14 @@ Instagram: <https://www.instagram.com/CreativeTimOfficial?ref=creativetim>
 
 ### Time Estimate
 Number and name of feature: Feature 1 - Deploy
-Estimate of time needed to complete: 10 minutes
-Start time: 1:10
+Estimate of time needed to complete: 20 minutes
+Start time: 1:00
 Finish time: 1:20
-Actual time needed to complete: 10 minutes
+Actual time needed to complete: 20 minutes
 
 Number and name of feature: Feature 2 - Modify the Contents
 Estimate of time needed to complete: 3 hours
-Start time: 
+Start time: 2:00
 Finish time: 
 Actual time needed to complete: 
 
